@@ -469,7 +469,7 @@ if page == "🏠 Overview":
     st.markdown(
         f"""<div class="hero">
         <div class="tag">EDA + Predictive Analytics · Recruiter-Facing Demo</div>
-        <h1>Mental Health in Tech — Analytics & Prediction</h1>
+        <h1>Mental Health in Tech Survey — Analytics & Prediction</h1>
         <p>What drives an employee in tech to seek treatment for a mental-health condition —
         and how can HR / people-ops teams target limited wellness budget where it will actually
         move the needle? This app turns a 1,259-respondent OSMI survey into an interactive
