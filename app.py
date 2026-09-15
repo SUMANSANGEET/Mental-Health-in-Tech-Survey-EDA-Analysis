@@ -33,7 +33,7 @@ from sklearn.svm import SVC
 # Page config & palette
 # --------------------------------------------------------------------------------------
 st.set_page_config(
-    page_title="Mental Health in Tech | Analytics & Prediction",
+    page_title="Mental Health in Tech Survey | Analytics & Prediction",
     page_icon="🧠",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -438,7 +438,7 @@ def impact(text):
 # --------------------------------------------------------------------------------------
 # Sidebar navigation
 # --------------------------------------------------------------------------------------
-st.sidebar.markdown("### 🧠 Mental Health in Tech")
+st.sidebar.markdown("### 🧠 Mental Health in Tech Survey")
 st.sidebar.caption("OSMI Survey · EDA + ML capstone")
 page = st.sidebar.radio(
     "Navigate",
