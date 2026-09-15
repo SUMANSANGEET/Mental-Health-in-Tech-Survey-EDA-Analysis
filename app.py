@@ -446,7 +446,7 @@ page = st.sidebar.radio(
         "🏠 Overview",
         "🔎 Explore & Segment",
         "🧩 Correlations & Drivers",
-        "🤖 Model Performance",
+        "🧪 Model Performance",
         "🎯 Try the Prediction Tool",
         "📈 2014 vs 2016 Trends",
         "📌 Recommendations & About",
@@ -651,8 +651,8 @@ elif page == "🧩 Correlations & Drivers":
 # ======================================================================================
 # PAGE: MODEL PERFORMANCE
 # ======================================================================================
-elif page == "🤖 Model Performance":
-    st.markdown("## 🤖 Model Performance")
+elif page == "🧪 Model Performance":
+    st.markdown("## 🧪 Model Performance")
     st.caption("Six classifiers trained to predict `treatment` from 22 cleaned features, "
                "evaluated on a held-out 20% test split — pick any model below to inspect it.")
 
