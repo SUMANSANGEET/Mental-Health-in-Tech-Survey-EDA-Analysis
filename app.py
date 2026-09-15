@@ -1,5 +1,5 @@
 """
-Mental Health in Tech — Interactive Analytics & Prediction App
+Mental Health in Tech Survey — Interactive Analytics & Prediction App
 Author: P Suman Sangeet
 Source notebook: Mental_Health_in_Tech_Survey_EDA_and_ML.ipynb
 Dataset: OSMI Mental Health in Tech Survey (2014, n=1259) + 2016 wave (n=1433)
