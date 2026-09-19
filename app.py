@@ -117,6 +117,38 @@ CUSTOM_CSS = f"""
         border-color: {CYAN} !important;
     }}
 
+        /* --------------------------------------------------
+       MHT Corporate Logo
+    -------------------------------------------------- */
+
+    .mht-brand {{
+        text-align: center;
+        padding: 10px 5px 18px 5px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #232A47;
+    }}
+
+    .mht-brand img {{
+        width: 100%;
+        max-width: 220px;
+        height: auto;
+        margin-bottom: 10px;
+    }}
+
+    .mht-brand-title {{
+        font-size: 20px;
+        font-weight: 800;
+        letter-spacing: 3px;
+        color: #00E5FF;
+    }}
+
+    .mht-brand-subtitle {{
+        font-size: 10px;
+        letter-spacing: 1.5px;
+        color: #8B96C0;
+        margin-top: 5px;
+    }}
+
     .hero {{
         background: linear-gradient(120deg, {VOID} 0%, #1B1440 40%, #0E3A4A 75%, {VOID} 100%);
         background-size: 260% 260%;
@@ -439,13 +471,32 @@ def impact(text):
 # Sidebar navigation
 # --------------------------------------------------------------------------------------
 
-# Corporate logo
+st.sidebar.image(
+    "assets/mht_logo.png",
+    use_container_width=True,
+)
+
 st.sidebar.markdown(
     """
-    <div class="mht-brand">
-        <img src="app/static/mht_logo.png">
-        <div class="mht-brand-title">MHT</div>
-        <div class="mht-brand-subtitle">
+    <div style="
+        text-align: center;
+        margin-top: -12px;
+        margin-bottom: 18px;
+    ">
+        <div style="
+            font-size: 20px;
+            font-weight: 800;
+            letter-spacing: 3px;
+            color: #00E5FF;
+        ">
+            MHT
+        </div>
+
+        <div style="
+            font-size: 10px;
+            letter-spacing: 1.5px;
+            color: #8B96C0;
+        ">
             MENTAL HEALTH IN TECH
         </div>
     </div>
