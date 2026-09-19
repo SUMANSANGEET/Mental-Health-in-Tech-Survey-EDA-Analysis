@@ -34,7 +34,7 @@ from sklearn.svm import SVC
 # --------------------------------------------------------------------------------------
 st.set_page_config(
     page_title="Mental Health in Tech Survey | Analytics & Prediction",
-    page_icon="🧠",
+    page_icon="",
     layout="wide",
     initial_sidebar_state="expanded",
 )
