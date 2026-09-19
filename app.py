@@ -478,17 +478,17 @@ st.sidebar.image(
 
 st.sidebar.markdown(
     """
-    <div style="
+    <div style=
         text-align: center;
         margin-top: -12px;
         margin-bottom: 18px;
-    ">
-        <div style="
+    >
+        <div style=
             font-size: 20px;
             font-weight: 800;
             letter-spacing: 3px;
             color: #00E5FF;
-        ">
+        >
             MHT
         </div>
 
@@ -497,7 +497,7 @@ st.sidebar.markdown(
             letter-spacing: 1.5px;
             color: #8B96C0;
         >
-            MENTAL HEALTH IN TECH-SUVEY
+            MENTAL HEALTH IN TECH SUVEY
         </div>
     </div>
     """,
