@@ -438,8 +438,22 @@ def impact(text):
 # --------------------------------------------------------------------------------------
 # Sidebar navigation
 # --------------------------------------------------------------------------------------
-st.sidebar.markdown("### 🧠 Mental Health in Tech Survey")
-st.sidebar.caption("OSMI Survey · EDA + ML capstone")
+
+# Corporate logo
+st.sidebar.markdown(
+    """
+    <div class="mht-brand">
+        <img src="app/static/mht_logo.png">
+        <div class="mht-brand-title">MHT</div>
+        <div class="mht-brand-subtitle">
+            MENTAL HEALTH IN TECH
+        </div>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
+
+st.sidebar.caption("OSMI Survey · EDA + ML Capstone")
 page = st.sidebar.radio(
     "Navigate",
     [
