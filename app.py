@@ -492,12 +492,12 @@ st.sidebar.markdown(
             MHT
         </div>
 
-        <div style="
+        <div style=
             font-size: 10px;
             letter-spacing: 1.5px;
             color: #8B96C0;
-        ">
-            MENTAL HEALTH IN TECH
+        >
+            MENTAL HEALTH IN TECH-SUVEY
         </div>
     </div>
     """,
